@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"\n//* colors\n$light-blue: #4a84dc; \n$dark-blue: #09174d; \n\n\n* {\n   box-sizing: border-box;\n   padding: 0;\n   margin: 0;\n}\nbody {\n   text-align: center;\n   background-color: $light-blue;\n}"
+	],
+	"names": [],
+	"mappings": ";AAMA,AAAA,CAAC,CAAC;EACC,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACX;;;AACD,AAAA,IAAI,CAAC;EACF,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAXN,OAAO;CAYnB"
+}

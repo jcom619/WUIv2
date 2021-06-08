@@ -1,0 +1,124 @@
+//* font values
+$font-stack-a: "americantypewriter", avenir, monospace;
+$font-stack-b: phosphate-inline, halvetica, sans-serif;
+$font-stack-c: skia, halvetica, sans-serif;
+
+//* colors
+$black: #000;
+$white: #fff;
+$light-blue: #4a84dc; 
+$dark-blue: #09174d; 
+$green: #108f25; 
+$dark-green: #012908; 
+
+* { 
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: $font-stack-c;
+}
+body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   // background-color: $black;
+   color: $dark-blue;
+   text-shadow: 1px 0 1px $light-blue;
+   // background-color: #4a84dc;
+   background-image: url(../images/fullnite.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+   header {
+      width: 100vw;
+      display: flex;
+      position: relative;
+      bottom: 0;
+      justify-content: flex-end;
+      // background-color: $light-blue;
+      background: url(../images/justwater.gif);
+      background-position: absolute center;
+      background-repeat: no-repeat;
+      resize: both;
+      background-size: cover;
+      margin: 0;
+      // padding: 3em 0 5em 0;
+      box-shadow: inset 0 0 20px 5px $black;
+      nav {
+         // display: block;
+         ul {
+            list-style-type: none;
+            li {
+               display: inline;
+               justify-content: center;
+               padding-top: 0;
+               padding-bottom: 0;
+               img {
+                  border-radius: 50%;
+                  box-shadow: 4px 3px 15px 5px $black, 0 0 ;
+                  width: 4vw;
+                  // height: 100vh;
+               }
+            }
+         }
+      }
+      .container {
+         // display: flex;
+         // position: absolute;
+         margin: 0;
+         padding: 0;
+         height: 100vh;
+         width: 100vw;
+         border: 4px solid $black;
+         box-shadow: inset 0 0 20px 5px $black;
+         // box-shadow: $box-shadow-in;
+         // background: url(../images/mediumrain.gif);
+         background-color: rgba( 0, 0, 0, 0.6438);
+         // background: 
+         // background-color: rgba(128, 128, 128, 0.162);
+         background-position: absolute center;
+      background-repeat: no-repeat;
+      resize: both;
+      
+      background-size: cover;
+         .background-main {
+            // height: 100vh;
+            padding: 3em;
+         }
+         }
+         h1 { 
+            font-family: $font-stack-c;
+            // margin: 4rem;
+         }
+         
+         .logo {
+            text-shadow: 2px 2px 1px $dark-blue, 
+                         2px 0 3px $light-blue, 
+                         0 2px 3px $white, 
+                         10px 0 16px $black, 
+                         0 10px 24px $black;
+            color: $dark-blue;
+            // opacity: .9;
+            font-size: 4rem;
+            padding: 4rem 1rem 3rem 1rem;
+            .globe {
+               width: 50px;
+
+            }
+         }
+         p {
+            color: $white;
+            text-shadow: 2px 2px 1px $black;
+            opacity: .7;
+            margin: 1rem;
+         }
+         
+         a {
+            text-decoration: none;
+            text-shadow: 1px 1px 1px $black, 0 0 3px $dark-blue;
+            color: $light-blue;
+            margin: 2em;
+            padding: 2em;
+         }
+      } 
+   

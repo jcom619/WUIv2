@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "weather.css",
+	"sources": [
+		"../scss/weather.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}
